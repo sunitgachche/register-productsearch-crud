@@ -1,0 +1,35 @@
+DB Scripts:
+===========
+
+CREATE TABLE employee (  
+id INT AUTO_INCREMENT  PRIMARY KEY,  
+firstName VARCHAR(50) NOT NULL, 
+lastname VARCHAR(50) NOT NULL, 
+phoneNumber VARCHAR(50) NOT NULL, 
+email VARCHAR(50) NOT NULL, 
+salary VARCHAR(50) NOT NULL, 
+department VARCHAR(50) NOT NULL 
+);  
+
+INSERT INTO employee
+VALUES (1, 'Pavan', 'Padalwar','9988776655','pavabadj87@gmail.com',98000.00,'IT' )
+
+  
+  CREATE TABLE product (  
+id INT AUTO_INCREMENT  PRIMARY KEY,  
+name VARCHAR(50) NOT NULL, 
+brand VARCHAR(50) NOT NULL, 
+madein VARCHAR(50) NOT NULL, 
+price VARCHAR(50) NOT NULL
+);  
+
+
+CREATE TABLE registration_id (  
+id INT AUTO_INCREMENT  PRIMARY KEY,  
+name VARCHAR(100) NOT NULL, 
+address VARCHAR(250) NOT NULL, 
+gender VARCHAR(100) NOT NULL,
+disease VARCHAR(100) NOT NULL, 
+emailId VARCHAR(100) NOT NULL,
+contactNumber VARCHAR(100) NOT NULL  
+);  
